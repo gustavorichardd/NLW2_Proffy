@@ -1,0 +1,54 @@
+#page-logo-retangle {
+  width: 50vw;
+  height: 100vh;
+    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: var(--color-primary);
+
+}
+
+#page-logo-retangle .box-images img:first-child {
+  position: absolute;
+  width: 50vw;
+  height: 80vh;
+  left: 0;
+  top: 10vh;
+  z-index: 1;
+}
+
+#page-logo-retangle .box-images img + img {
+  position: absolute;
+  width: 50vw;
+  height: 80vh;
+  left: 0;
+  top: 10vh;
+  z-index: 2;
+}
+
+
+#page-logo-retangle .box-images .logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items :center; 
+}
+
+#page-logo-retangle .box-images .logo img {
+  top: 50%;
+  left: auto;
+  position: relative;
+  margin: 0;
+  width: 70%;
+  height: 70%;
+}
+
+#page-logo-retangle .box-images .logo img + img{
+  /* position: relative; */
+  /* display: flex; */
+  width: 50%;
+  height: 50%;
+}

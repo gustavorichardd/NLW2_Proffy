@@ -1,5 +1,6 @@
 :root {
   --color-background: #F0F0F7;
+  --color-background-secondary: #E5E5E5;
   --color-primary-lighter: #9871F5;
   --color-primary-light: #916BEA;
   --color-primary: #8257E5;
@@ -15,8 +16,10 @@
   --color-line-in-white: #E6E6F0;
   --color-input-background: #F8F8FC;
   --color-button-text: #FFFFFF;
+  --color-button-background: #DCDCE6;
   --color-box-base: #FFFFFF;
   --color-box-footer: #FAFAFC;
+  
   font-size: 60%;
 }
 
